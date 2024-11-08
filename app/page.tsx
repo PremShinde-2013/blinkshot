@@ -20,7 +20,7 @@ type ImageResponse = {
 export default function Home() {
   const [prompt, setPrompt] = useState("");
   const [iterativeMode, setIterativeMode] = useState(false);
-  const [userAPIKey, setUserAPIKey] = useState("");
+  const [userAPIKey] = useState('');
   const debouncedPrompt = useDebounce(prompt, 300);
   const [generations, setGenerations] = useState<
     { prompt: string; image: ImageResponse; }[]

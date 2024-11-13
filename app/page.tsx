@@ -67,7 +67,7 @@ export default function Home() {
         <div className="absolute left-1/2 top-6 -translate-x-1/2">
 
           {/* <Logo /> */}
-          <h1 className="font-bold text-5xl text text-purple-600" >BlinkShot</h1>
+          <h1 className="font-bold text-5xl text text-purple-600" >DreamRender</h1>
 
 
         </div>
